@@ -95,7 +95,7 @@ async getSearched(regular_Exp){
         <input type="text" class="textbox" placeholder="Search by name or party" ref="search" onChange={(data)=>{
                      
 
-  
+                  this.getSearched(this.refs.search.value)
        
      }}/>
 </form>
